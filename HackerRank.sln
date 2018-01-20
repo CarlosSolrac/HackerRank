@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank\HackerRank.csproj", "{EE726AB2-D0CA-4C1D-B9AD-98FC8D1B9CD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms_Implementation_MatrixLayerRotation", "HackerRank\Algorithms_Implementation_MatrixLayerRotation.csproj", "{EE726AB2-D0CA-4C1D-B9AD-98FC8D1B9CD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
