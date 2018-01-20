@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms_Implementation_MatrixLayerRotation", "HackerRank\Algorithms_Implementation_MatrixLayerRotation.csproj", "{EE726AB2-D0CA-4C1D-B9AD-98FC8D1B9CD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms_Strings_AshtonAndString", "Algorithms_Strings_AshtonAndString\Algorithms_Strings_AshtonAndString.csproj", "{BB8F8ADE-79A2-414E-9CB2-D0E207D42AE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{EE726AB2-D0CA-4C1D-B9AD-98FC8D1B9CD2}.Debug|x86.Build.0 = Debug|x86
 		{EE726AB2-D0CA-4C1D-B9AD-98FC8D1B9CD2}.Release|x86.ActiveCfg = Release|x86
 		{EE726AB2-D0CA-4C1D-B9AD-98FC8D1B9CD2}.Release|x86.Build.0 = Release|x86
+		{BB8F8ADE-79A2-414E-9CB2-D0E207D42AE3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB8F8ADE-79A2-414E-9CB2-D0E207D42AE3}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB8F8ADE-79A2-414E-9CB2-D0E207D42AE3}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB8F8ADE-79A2-414E-9CB2-D0E207D42AE3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
