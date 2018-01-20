@@ -40,6 +40,7 @@
     <None Include="answer01.txt" />
     <None Include="test02.txt" />
     <None Include="answer02.txt" />
+    <None Include="Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

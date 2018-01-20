@@ -135,11 +135,6 @@ namespace HackerRank
 
             int maxR = matrix.Length - 1;
             int maxC = matrix[0].Length - 1;
-            int oneFullRotation = (maxR + maxC + 2) * 2 - 4;
-
-            //rotations %= oneFullRotation;
-            if (rotations == 0)
-                return;
 
             pO = new Point(0, 0);
             do
@@ -147,7 +142,10 @@ namespace HackerRank
                 pC = new Point(0, 0);
                 pN = pC;
 
-                for (int i = 0; i < rotations; i++)
+                int oneFullRotation = (maxR + maxC + 2) * 2 - 4;
+                int rots = rotations % oneFullRotation;
+
+                for (int i = 0; i < rots; i++)
                 {
                     pN = Next(maxR, maxC, pN);
                 }
